@@ -4,7 +4,7 @@ This is a project revolving around an ERC20 token called Peanut (PEA). Its main 
 
 ## Description
 
-``Peanut.sol`` has a contract called ``Peanut`` revolving around a token of the same name, abbreviated as PEA. It inherits function from OpenZeppelin"s ERC20 token contracts, namely ERC20, ERC20Burnable, and Ownable.
+``Peanut.sol`` has a contract called ``Peanut`` revolving around a token of the same name, abbreviated as PEA. It inherits function from OpenZeppelin's ERC20 token contracts, namely ERC20, ERC20Burnable, and Ownable.
 
 ## Features
 
