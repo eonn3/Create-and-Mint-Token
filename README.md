@@ -1,6 +1,6 @@
 # Create-and-Mint-Token
 
-This is a project revolving around an ERC20 token called Peanut (PEA). Its main functions are ``mint(to, amount)``, ``burn(amount)``, and ``trasfer(to, amount)``.
+This is a project revolving around an ERC20 token called Peanut (PEA). Its main functions are ``mint(to, amount)``, ``burn(amount)``, and ``trasferPeanuts(to, amount)``.
 
 ## Description
 
@@ -14,11 +14,11 @@ To deploy the contract, an address must be provided to indicate which account is
 
 ### Mint
 
-For this project, only the owner can mint tokens. The ```mintPeanuts(to, amount)``` function takes an address and an amount as the parameter. Upon a successful transaction, the given amount of token is minted and added to the address provided.
+For this project, only the owner can mint tokens. The ```mint(to, amount)``` function takes an address and an amount as the parameter. Upon a successful transaction, the given amount of tokens is minted and added to the address provided.
 
 ### Burn
 
-The ```burnPeanuts(amount)``` function takes an amount to burn. It will be burned from the address of the current account.
+The ```burn(amount)``` function takes an amount to burn. It will be burned from the address of the current account.
 
 ### Transfer
 
